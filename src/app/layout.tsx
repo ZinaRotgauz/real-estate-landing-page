@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
-import { Inter } from '@next/font/google'
+import {Inter} from 'next/font/google'
 import "./globals.css";
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap', // Ensures fonts swap without Flash of Unstyled Text (FOUT)
+  weight: ['400', '700'],  // Adjust weights as needed
+  variable: '--font-inter-display',
 });
 
 export const metadata: Metadata = {
