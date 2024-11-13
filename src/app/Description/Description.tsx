@@ -1,3 +1,4 @@
+'use client'
 export default function Description(){
     return(
     <div className="py-16 px-8 sm:px-20 bg-white flex flex-col items-center">

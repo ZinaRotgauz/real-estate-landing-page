@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+'use client'
+/* eslint-disable @next/next/no-img-element*/
 export default function InfoSection() {
     return (
       <div className="py-16 px-8 sm:px-20 bg-white">
