@@ -1,7 +1,7 @@
 'use client'
 /* eslint-disable @next/next/no-img-element */
 export default function Gallery() {
-    const images = ["/interior1.png", "/interior2.png","/interior1.png", "/interior2.png"]; 
+    const images = ["/interior1.png", "/interior2.png","/interior1.png", "/interior2.png","/interior1.png", "/interior2.png","/interior1.png", "/interior2.png"]; 
   
     return (
       <div className="overflow-hidden w-full bg-white py-8">
