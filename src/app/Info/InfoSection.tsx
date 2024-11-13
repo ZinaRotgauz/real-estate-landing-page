@@ -1,6 +1,6 @@
 'use client'
 /* eslint-disable @next/next/no-img-element*/
-export default function InfoSection() {
+export default function DreamHomeSection() {
     return (
       <div className="py-16 px-8 sm:px-20 bg-white">
         <div className=" ml-20 grid grid-cols-1 md:grid-cols-3 gap-4">
