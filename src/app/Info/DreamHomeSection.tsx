@@ -2,8 +2,8 @@
 /* eslint-disable @next/next/no-img-element*/
 export default function DreamHomeSection() {
     return (
-      <div className="py-16 px-8 sm:px-20 bg-white">
-        <div className=" ml-20 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className=" py-16 px-8 sm:px-20">
+        <div className=" ml-20 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           {/* Left Column: Text, Blank Space, and Image 1 */}
           <div className="md:col-span-1 flex flex-col space-y-5">
             {/* Text Block */}
@@ -19,7 +19,7 @@ export default function DreamHomeSection() {
             <img
               src="/home1.png"
               alt="Living area"
-              className="w-min h-min object-cover rounded-lg"
+              className="w-30 h-30 object-cover rounded-lg"
             />
           </div>
   
@@ -30,7 +30,7 @@ export default function DreamHomeSection() {
               <img
                 src="/home2.png"
                 alt="Living room"
-                className="w-min h-min object-cover rounded-lg"
+                className="w-30 h-30 object-cover rounded-lg"
               />
             </div>
   
@@ -39,7 +39,7 @@ export default function DreamHomeSection() {
               <img
                 src="/home3.png"
                 alt="Interior view"
-                className="w-min h-min object-cover rounded-lg"
+                className="w-30 h-30 object-cover rounded-lg"
               />
             </div>
           </div>

@@ -2,7 +2,7 @@
 import Description from "./Description/Description";
 import FAQSection from "./FAQSection/FAQSection";
 import Gallery from "./ImageGallery/Gallery";
-import InfoSection from "./Info/InfoSection";
+import InfoSection from "./Info/DreamHomeSection";
 import IntroSection from "./IntroSection/IntroSection";
 
 export default function Home() {
