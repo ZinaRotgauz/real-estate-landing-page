@@ -1,3 +1,4 @@
+'use client'
 import Description from "./Description/Description";
 import FAQSection from "./FAQSection/FAQSection";
 import Gallery from "./ImageGallery/Gallery";
