@@ -17,15 +17,15 @@ export default function IntroSection(){
             {/* Key Metrics */}
             <div className="flex justify-start gap-10">
               <div className="text-center">
-                <span className="text-4xl font-bold sm:text-2xl">+100</span>
+                <span className="text-4xl font-bold sm:text-l">+100</span>
                 <p className="text-gray-600">Units Ready</p>
               </div>
               <div className="text-center">
-                <span className="text-4xl font-bold sm:text-2xl">+60K</span>
+                <span className="text-4xl font-bold sm:text-l">+60K</span>
                 <p className="text-gray-600">Customers</p>
               </div>
               <div className="text-center">
-                <span className="text-4xl font-bold sm:text-2xl">+70K</span>
+                <span className="text-4xl font-bold sm:text-l">+70K</span>
                 <p className="text-gray-600">Review</p>
               </div>
             </div>
